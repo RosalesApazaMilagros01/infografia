@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Infografía: Producción Audiovisual</title>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.1/ScrollTrigger.min.js"></script>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Concert+One&family=Lobster&family=Playwrite+CU:wght@100..400&display=swap"
+        rel="stylesheet">
+        <link
+        href="https://fonts.googleapis.com/css2?family=B612+Mono&family=Bad+Script&family=Fredoka:wght@400;500&family=Jua&family=Kosugi+Maru&family=Marck+Script&family=Oleo+Script:wght@400;700&family=Pacifico&family=Petit+Formal+Script&family=Quicksand&family=Roboto:ital,wght@1,100&family=Signika+Negative:wght@300&family=Special+Elite&display=swap"
+        rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bungee+Inline&family=Bungee+Shade&family=Geo&family=Madimi+One&family=Rye&family=Vast+Shadow&family=ZCOOL+QingKe+HuangYou&display=swap"
+        rel="stylesheet">
+    <style>
+        /* Estilos base para todos los dispositivos */
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f4f4f4;
+        text-align: center;
+    position: relative; 
+    background-image: url('https://www.sonimalaga.com/wp-content/uploads/2021/06/produccion-audiovisual.png');
+    background-size: cover; 
+    background-position: center; 
+    font-family: "Fredoka", sans-serif;
+  background-attachment: fixed;
+
+        }
+
+h5{
+    font-size: 1vw;
+}
+       p{
+  border-radius: 20px;
+  padding: 1vw;
+  margin: 1vw;
+  width: auto;
+  height: auto;
+  font-size: 1.2vw;
+  color: white;
+  background-color: #002261;
+}
+      
+
+  header {
+    background-color: #4682b4;
+    color: #fff;
+    padding: 4vw 4vw 0vw 4vw;
+    text-align: center;
+    width: 92%;
+  }
+
+  h1 {
+    color:#220aff;
+    margin: 0;
+    font-size: 4vw;
+    display: flex;
+    justify-content: center;
+    padding:2vw;
+    font-family: "Bungee Shade", sans-serif;
+    text-transform: uppercase;
+  }
+
+  h1 span {
+  padding: 0.3vw;
+    display: inline-block;
+    animation: bounce 1s ease infinite, color-change 7s ease infinite;
+    transform-origin: center;
+  }
+
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-20px);
+    }
+  }
+
+  h1 span:nth-child(1) { animation-delay: 0.1s; }
+  h1 span:nth-child(2) { animation-delay: 0.2s; }
+  h1 span:nth-child(3) { animation-delay: 0.3s; }
+  h1 span:nth-child(4) { animation-delay: 0.4s; }
+  h1 span:nth-child(5) { animation-delay: 0.5s; }
+  h1 span:nth-child(6) { animation-delay: 0.6s; }
+  h1 span:nth-child(7) { animation-delay: 0.7s; }
+  h1 span:nth-child(8) { animation-delay: 0.8s; }
+
+
+
+  @keyframes color-change {
+    0% {
+      color: #c3daec;
+    }
+    25% {
+      color: #87ceeb;
+    }
+    50% {
+      color: #6495ed;
+    }
+    75% {
+      color: #220aff;
+    }
+    100% {
+      color: #4682b4;
+    }
+  }
+
+  h1 span:nth-child(1) {
+    animation-delay: 0.1s;
+  }
+  h1 span:nth-child(2) {
+    animation-delay: 0.2s;
+  }
+  h1 span:nth-child(3) {
+    animation-delay: 0.3s;
+  }
+  h1 span:nth-child(4) {
+    animation-delay: 0.4s;
+  }
+  h1 span:nth-child(5) {
+    animation-delay: 0.5s;
+  }
+  h1 span:nth-child(6) {
+    animation-delay: 0.6s;
+  }
+  h1 span:nth-child(7) {
+    animation-delay: 0.7s;
+  }
+  h1 span:nth-child(8) {
+    animation-delay: 0.8s;
+  }
+  h3{
+    margin: auto;
+    width: 80%;
+    font-size: 2vw;
+font-family: "Fredoka", sans-serif;
+text-align: justify;
+padding: 1vw 3vw;
+background-color: #00539c;
+color: aliceblue;
+border-radius: 10px;
+box-shadow: 0 1vw 1.3vw rgba(0, 0, 0, 0.507);
+
+
+  }
+  h2 {
+  padding: 1vw;
+  width: 80%;
+    font-size: 2vw;
+   margin: auto;
+    filter: drop-shadow(0 0.4vw 0.1vw hsla(226, 100%, 82%, 0.781));
+    font-family: "Concert One", sans-serif;
+     text-shadow: 0vw 0.2vw 0.1vw #09f7ff7a;
+     letter-spacing: 0.2vw;
+     position: relative;
+  background: linear-gradient(to right, #002261, #0051ffef, #210af0, #210af0, #0b0d5eef, #416de6);
+  -webkit-background-clip: text;
+  background-clip: text;
+  text-align: center;
+  color: transparent;
+  }
+  
+  nav {
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 10000;
+    background-color: #ffffff; 
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+nav .menu-icon {
+    font-size: 2em;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    display: none; /* Inicialmente oculto */
+}
+
+nav ul {
+    position: static;
+    list-style-type: none; 
+    padding: 0; 
+    margin: 0; 
+    display: flex;
+    width: 40%; /* Ocupa todo el ancho disponible */
+}
+
+nav ul li {
+    display: inline-flex; 
+    background-color: #ffffff;
+    padding: 0.75em 0.7em;
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    margin: 0.1em;
+    text-align: center;
+    position: relative;
+    flex-grow: 1; /* Distribuye el espacio uniformemente */
+}
+
+nav a {
+    color: #023197;
+    text-decoration: none;
+    font-size: 1vw;
+    padding: 0.2vw;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    width: 100%; /* Ocupa todo el ancho disponible */
+}
+
+
+nav li:hover {
+    box-shadow: 
+        0 -6px 8px rgb(47, 134, 248), 
+        0 0 0 rgba(0, 4, 240, 0.7),  
+        0 0 0 rgba(0, 4, 255, 0.7);  
+    transform: translateY(-1vw);
+    overflow: hidden;
+}
+
+/* Media query para pantallas más pequeñas */
+@media (max-width: 768px) {
+    nav ul {
+        display: none; /* Oculta la lista de navegación */
+    }
+    
+    nav .menu-icon {
+        display: block; /* Muestra el icono de menú */
+    }
+    
+    nav.responsive {
+        display: block; /* Muestra la barra de navegación cuando se hace clic en el icono de menú */
+    }
+    
+    nav.responsive ul {
+        display: block; /* Muestra la lista de navegación cuando se hace clic en el icono de menú */
+        text-align: left; /* Alinea el texto a la izquierda */
+    }
+    
+    nav.responsive li {
+        display: block; /* Muestra cada elemento de la lista en una línea */
+        margin: 0.5em 0; /* Espacio entre los elementos */
+    }
+}
+
+        .container {
+            max-width: 60%;
+            margin: auto;
+            background: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+        }
+
+
+        .section {
+    margin-bottom: 30px;
+    padding: 15px;
+    border-left: 5px solid #4CAF50;
+    background-color: #e8f5e9;
+    border-radius: 5px;
+}
+
+.functions-container {
+    display: flex;
+    flex-direction: column; /* Cambiado a columna para que el texto esté debajo de la imagen */
+    align-items: center; /* Centra el contenido */
+    margin-bottom: 15px; /* Espacio debajo de la imagen */
+}
+
+
+ul {
+   
+    display: flex; 
+    list-style-type: none; /* Elimina los puntos de la lista */
+    padding: 1em; /* Elimina el padding */
+    margin: 1em; 
+}
+
+li {
+   /* Hace que el texto y el icono estén en la misma fila */
+    align-items: center; /* Centra verticalmente el icono y el texto */
+    margin: 1em; /* Espaciado entre los elementos de la lista */
+    width: 15%;
+    background-color: aliceblue;
+}
+
+li .icon {
+    width: 7vw; /* Tamaño del icono en la lista */
+    height: 7vw; /* Tamaño del icono en la lista */
+    margin-bottom: 10px; /* Espacio entre la imagen y el texto */
+    border-radius: 50%; /* Hace que la imagen sea circular */
+    object-fit: cover; /* Asegura que la imagen cubra el área del círculo */
+
+}   
+img{
+    margin: auto;
+    width: 80%; /* Tamaño del icono en la lista */
+    height: auto; /* Tamaño del icono en la lista */
+} 
+li p {
+    font-size: 0.9vw;
+    color: #002261;
+    margin: 0; /* Elimina el margen del párrafo */
+    padding: 10px; /* Espacio interno para el texto */
+    background-color: #ffffff; /* Color de fondo de la tarjeta */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto 3D */
+    transition: transform 0.3s, box-shadow 0.3s; /* Transiciones suaves */
+}
+
+li p:hover {
+    transform: translateY(-5px); /* Levanta la tarjeta al pasar el mouse */
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3); /* Aumenta la sombra al pasar el mouse */
+} 
+        /* Estilos responsivos para pantallas más pequeñas */
+        @media (max-width: 768px) {
+            .container {
+                padding: 10px;
+            }
+            h1 {
+                font-size: 24px;
+            }
+            h2 {
+                font-size: 18px;
+            }
+            .icon {
+                width: 30px;
+                height: 30px;
+            }
+        }
+
+        /* Estilos responsivos para pantallas aún más pequeñas */
+        @media (max-width: 480px) {
+            .container {
+                padding: 5px;
+            }
+            h1 {
+                font-size: 20px;
+            }
+            h2 {
+                font-size: 16px;
+            }
+            .icon {
+                width: 20px;
+                height: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <div class="contenedor-general">
+        <div class="contenedor-encabezado">
+            <header>
+                <h1>
+                    <span>P</span>
+                    <span>r</span>
+                    <span>o</span>
+                    <span>d</span>
+                    <span>u</span>
+                    <span>c</span>
+                    <span>c</span>
+                    <span>i</span>
+                    <span>ó</span>
+                    <span>n</span>
+                    <span> </span>
+                    <span> </span>
+                    <span> </span>
+                    <span>A</span>
+                    <span>u</span>
+                    <span>d</span>
+                    <span>i</span>
+                    <span>o</span>
+                    <span>v</span>
+                    <span>i</span>
+                    <span>s</span>
+                    <span>u</span>
+                    <span>a</span>
+                    <span>l</span>
+                </h1>
+            </header>
+             <nav>
+                <div class="menu-icon" id="menu-icon">
+                    &#9776; <!-- Icono de hamburguesa -->
+                </div>
+                <ul id="nav-list" class="hidden">
+                    <li><a href="#inicio">Inicio</a></li>
+                    <li><a href="#papel">Papel</a></li>
+                    <li><a href="#funciones">Funciones</a></li>
+                    <li><a href="#departamento">Departamentos</a></li>
+                    <li><a href="#referencias">Referencias</a></li>
+                </ul>
+            </nav>
+           
+        </div>
+
+
+<div class="container">
+    <h3>Infografía: Producción Audiovisual</h3>
+<br> <br><br>
+    <div class="section" id="inicio">
+        <h2>1. ¿Qué es la Producción Audiovisual?</h2>
+        <img src="https://dafo.cultura.pe/wp-content/uploads/2021/02/Pakucha-rodaje-Tito-Catacora.jpg" alt="Producción Audiovisual" class="icon">
+        <p>La producción audiovisual es el conjunto de procesos creativos, administrativos y logísticos que permiten la creación de un producto cultural o de entretenimiento, como películas, programas de televisión o videos. Implica la colaboración de un equipo multidisciplinario que integra recursos humanos, técnicos y económicos para contar una historia y transmitir un mensaje.</p>
+    </div>
+
+    <div class="section" id="departamento">
+        <h2>2. Departamentos de Producción Audiovisual</h2>
+        <img src="https://grupoaudiovisual.com/wp-content/uploads/2020/05/Que-es-la-produccion-audiovisual-video-para-empresas-grupoaudiovisual-01.jpg" alt="Departamentos" class="icon">
+        <p>Los departamentos en la producción audiovisual son fundamentales para el éxito del proyecto. A continuación, se describen algunos de ellos:</p>
+        <ul>
+            <li>
+                <img src="https://fxanimation.es/wp-content/uploads/2022/12/produccion-audiovisual1-1080x675.jpg?x62701" alt="Producción" class="icon">
+                <p><strong>Producción:</strong> Facilita necesidades del proyecto y coordina la comunicación entre departamentos.</p>
+            </li>
+            <li>
+                <img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjxvH4S5LBzBopifD0S0kttKZH1BfEA3OzLbAmGEaX0Lv-Jc-iq8fYKZjAcbibAytEIggcS5r2tMWjmOhSnCrSMEe8UF78I8OZLRMjAzuKQGv6oIRUSlv9wYVnNaBUY-AJFzBXNzImqC61CbYh0Y4O-0HlnwlZq1AisW1jbPsHxHgtPKMlitmhUIlNYeg/s5376/momav.jpeg" alt="Dirección" class="icon">
+                <p><strong>Dirección:</strong> Responsable del proceso creativo y de la coherencia del relato audiovisual.</p>
+            </li>
+            <li>
+                <img src="https://aragonbroadcast.com/wp-content/uploads/2023/07/Plan-de-produccion-audiovisual-plan-de-rodaje-proyecto-audiovisual-plan-de-produccion-audiovisual-plan-de-produccion-audiovisual-03-1.jpg" alt="Casting" class="icon">
+                <p><strong>Casting:</strong> Selección de actores y actrices que darán vida a los personajes.</p>
+            </li>
+            <li>
+                <img src="https://quatrefilms.com/wp-content/uploads/2022/04/produccion-audiovisual.jpg" alt="Fotografía" class="icon">
+                <p><strong>Fotografía:</strong> Encargado del registro visual y decisiones sobre iluminación.</p>
+            </li>
+            <li>
+                <img src="https://www.nosequeestudiar.net/site/assets/files/2170456/un_productor_audiovisual_en_el_set_de_filmacion.jpg" alt="Diseño de Producción" class="icon">
+                <p><strong>Diseño de Producción:</strong> Define la estética visual del proyecto.</p>
+            </li>
+            <li>
+                <img src="https://produccionaudiovisual.com/wp-content/uploads/2022/12/rodaje-6-1.jpg" alt="Sonido" class="icon">
+                <p><strong>Sonido:</strong> Registra y edita el audio de la producción.</p>
+            </li>
+        </ul>
+    </div>
+
+
+    <div class="section" id="papel">
+        <h2>3. Papel del Productor Audiovisual</h2>
+        <img src="https://marcalima.pe/wp-content/uploads/2021/11/5-1.jpg.webp" alt="Productor Audiovisual" class="icon">
+        <p>El productor audiovisual es la persona encargada de supervisar y coordinar todos los aspectos de la producción. Su papel incluye:</p>
+        <ul>
+            <li>
+                <img src="https://cdn.euroinnova.edu.es/img/subidasEditor/dise%C3%B1o%20sin%20t%C3%ADtulo%20(62)-1636984166.webp" alt="Desarrollar" class="icon">
+                <p>Desarrollar el proyecto desde la idea inicial hasta su finalización.</p>
+            </li>
+            <li>
+                <img src="https://sangregorio.edu.ec/dgr/galeria/produccion_audiovisual/imagen_04.jpg" alt="Gestionar" class="icon">
+                <p>Gestionar el presupuesto y los recursos necesarios para la producción.</p>
+            </li>
+            <li>
+                <img src="https://sangregorio.edu.ec/dgr/galeria/produccion_audiovisual/imagen_03.jpg" alt="Coordinar" class="icon">
+                <p>Coordinar la comunicación entre los diferentes departamentos.</p>
+            </li>
+            <li>
+                <img src="https://www.itreseller.es/files/202312/content-ise-2024-1-produccion.jpg" alt="Resolver" class="icon">
+                <p>Resolver problemas que puedan surgir durante el proceso de producción.</p>
+            </li>
+        </ul>
+    </div>
+
+
+  
+    
+    <div class="section" id="funciones">
+        <h2>4. Funciones Principales en la Producción Audiovisual</h2>
+        <div class="functions-container">
+            <img src="https://www.upb.edu.co/es/imagenes/img-cpa-1464227892727.jpg" alt="Funciones" class="icon">
+            <p>Las personas que se dedican a la producción audiovisual realizan diversas funciones, tales como:</p>
+        </div>
+        <ul>
+            <li>
+                <img src="https://www.upb.edu.co/es/imagenes/img-edicion-1464227911117.png" alt="Planificación" class="icon">
+                <p>Planificación y organización de la producción.</p>
+            </li>
+            <li>
+                <img src="https://strobin.agency/wp-content/uploads/2023/03/Strobin-Agency-Produccion-Audiovisual-Opt.webp" alt="Coordinación" class="icon">
+                <p>Coordinación de horarios y logística en el set.</p>
+            </li>
+            <li>
+                <img src="https://maiafilms.pe/wp-content/uploads/2021/03/equipo-de-productora-audiovisual-peru.jpg" alt="Supervisión" class="icon">
+                <p>Supervisión de la calidad del trabajo en cada departamento.</p>
+            </li>
+            <li>
+                <img src="https://cdn.www.gob.pe/uploads/document/file/1496624/standard_Nuevos%20programas%20educativos%20%20para%20formaci%C3%B3n%20relacionada%20a%20la%20producci%C3%B3n%20audiovisual.jpg" alt="Comunicación" class="icon">
+                <p>Comunicación constante con el director y otros miembros clave del equipo.</p>
+            </li>
+            <li>
+                <img src="https://dafo.cultura.pe/wp-content/uploads/2021/02/Pakucha-rodaje-Tito-Catacora.jpg" alt="Evaluación" class="icon">
+                <p>Evaluación y ajuste de los recursos disponibles según las necesidades del proyecto.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section" id="etapas">
+        <h2>Etapas de la Producción Audiovisual</h2>
+        <p>La producción audiovisual se divide en varias etapas clave para llevar a cabo un proyecto exitoso. Estas etapas son:</p>
+        <ul>
+            <li>
+                <h5>1. Desarrollo del Proyecto</h5>
+                <p>Esta etapa inicial implica la planeación a partir del guion, donde se consiguen los fondos y se consolida el equipo de trabajo.</p>
+            </li>
+            <li>
+                <h5>2. Preproducción</h5>
+                <p>En esta fase se realizan actividades de planeación fundamentales, como la búsqueda de locaciones, la contratación de servicios y la elaboración del plan de rodaje.</p>
+            </li>
+            <li>
+                <h5>3. Producción</h5>
+                <p>Esta es la etapa donde se lleva a cabo el rodaje del contenido, capturando audio y video, y dirigiendo a los actores.</p>
+            </li>
+            <li>
+                <h5>4. Postproducción</h5>
+                <p>En esta fase se edita el material grabado, se incorporan efectos visuales y se finaliza el producto para su distribución.</p>
+            </li>
+            <li>
+                <h5>5. Distribución</h5>
+                <p>La etapa final implica lanzar el producto al público, implementando estrategias de marketing y promoción.</p>
+            </li>
+        </ul>
+    </div>
+
+    <div class="section">
+        <h2>Referencias</h2>
+       <p>1. Convenio para la protección de los Bienes Culturales en caso de conflicto armado, La Haya, UNESCO 1954.</p>
+        <p>2. Definición de producción audiovisual. (2020). En <i>Grupo Audiovisual</i>. Recuperado de <a href="https://grupoaudiovisual.com" target="_blank">https://grupoaudiovisual.com</a></p>
+        <p>3. Producción Audiovisual. (2024). En <i>Wikipedia</i>. Recuperado de <a href="https://es.wikipedia.org/wiki/Producci%C3%B3n_audiovisual" target="_blank">https://es.wikipedia.org/wiki/Producci%C3%B3n_audiovisual</a></p>
+    </div>
+
+
+</body>
+</html>
